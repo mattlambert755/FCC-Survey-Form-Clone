@@ -21,8 +21,16 @@ form{
 
 label{
     display: flex;
-    flex-direction: column;
 }
+button{
+    background-color: rgb(104, 175, 104);
+    color: white;
+}
+
+
+
+
+
 
 
 #title{
