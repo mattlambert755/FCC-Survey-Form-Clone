@@ -11,36 +11,40 @@ body{
 }   
 
 form{
-    background-color: rgb(18, 25, 66,.6);
+    background-color: rgb(18, 25, 66,.8);
     text-align: left;
     max-width: 750px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 30px;
+    font-size: 25px;
+    border-radius: 5px;
 }
 
 label{
     display: flex;
 }
+
 button{
-    background-color: rgb(104, 175, 104);
+    background-color: rgb(68, 168, 68);
     color: white;
 }
-
-
-
-
-
-
 
 #title{
     font-size:40px;
     padding-top: 50px;
 }
+
 #description{
     font-size: 25px;
     font-style: italic;
 }
+
 input{
     max-width: 700px;
+}
+
+div{
+    padding-bottom: 25px;
 }
