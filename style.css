@@ -23,7 +23,7 @@ form{
     padding-right: 40px;
     font-size: 25px;
     border-radius: 5px;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 label{
@@ -71,5 +71,13 @@ button{
 input::-webkit-input-placeholder {
     font-size: 17px;
     padding-left: 17px;
+}
+
+input[type="radio"]{
+    margin-top: 17px;
+}
+
+input[type="checkbox"]{
+    margin-top: 17px;
 }
 
